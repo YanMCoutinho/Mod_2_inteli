@@ -1,21 +1,32 @@
 {
-  "name": "m2",
-  "version": "0.0.1",
-  "description": "This example is so cool.",
+  "name": "curriculum_backend",
+  "version": "1.0.0",
+  "description": "A backend that send the storaged resumes in database",
+  "main": "SEMANA_07/03_AUT_EST_ENTREGA/backend/app.js",
   "scripts": {
-    "start": "node app_71.js"
+    "test": "nodemon SEMANA_07/03_AUT_EST_ENTREGA/backend/app.js",
+    "start": "node SEMANA_07/03_AUT_EST_ENTREGA/backend/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanMCoutinho/Mod_2_inteli.git"
   },
   "keywords": [
-    "example",
-    "heroku"
+    "curriculum",
+    "TIL",
+    "today",
+    "I",
+    "learn"
   ],
-  "author": "inteli",
-  "license": "Inteli",
+  "author": "Yan M Coutinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanMCoutinho/Mod_2_inteli/issues"
+  },
+  "homepage": "https://github.com/YanMCoutinho/Mod_2_inteli#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "sqlite3": "^5.1.2"
-  },
-  "engines": {
-    "node": "16.14.0"
+    "nodemon": "^2.0.22",
+    "sqlite3": "^5.1.6"
   }
 }
